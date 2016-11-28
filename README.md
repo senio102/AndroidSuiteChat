@@ -5,7 +5,7 @@ This applicaiton currently uses a java TCP client running on an android device t
 As of this release, the application currently has the ability to take an IP address and port number from the user and send a connection request.
 The user can then chat from the phone to the server and the server can write back.
 The client uses threads for the ability to send and recieve messages simultaneously.
-The server also has the ability to handle more than one client at onces using multiple threads.
+The server also has the ability to handle more than one client at once using multiple threads.
 
 The application currently has too many files to upload them to Githib, although i have posted screenshots and the main java files i worked on.
 The APK file is also available to download and run via a desktop application such as BlueStacks.
