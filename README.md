@@ -1,4 +1,5 @@
 # AndroidSuiteChat
+James Senior
 
 This applicaiton currently uses a java TCP client running on an android device to connect to an outside server.
 As of this release, the application currently has the ability to take an IP address and port number from the user and send a connection request.
