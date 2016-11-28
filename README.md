@@ -17,3 +17,20 @@ If doing both on the same machine, when prompted for the IP address at the appli
 The port is set to 6789 by deault on the server side, but it can be changed.
 
 Messages sent from the client and received by the server are currently echoed back to the client in all caps for testing.
+
+Step 1: Run Server
+
+![Alt text](/Screen%20Shot%202016-11-28%20at%208.12.56%20AM.png?raw=true "Optional Title")
+
+Step 2: Open Client Application
+
+![Alt text](/Screen%20Shot%202016-11-28%20at%208.46.04%20AM.png?raw=true "Optional Title")
+
+Step 3: Enter connection information (if localhost, ip is 10.0.2.2)
+
+![Alt text](/Screen%20Shot%202016-11-28%20at%208.46.27%20AM.png?raw=true "Optional Title")
+
+Step 4: Connect to server and talk!
+
+![Alt text](/Screen%20Shot%202016-11-28%20at%208.47.12%20AM.png?raw=true "Optional Title")
+![Alt text](/Screen%20Shot%202016-11-28%20at%208.46.58%20AM.png?raw=true "Optional Title")
