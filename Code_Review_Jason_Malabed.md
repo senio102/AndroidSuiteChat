@@ -1,0 +1,6 @@
+On a scale of 1 to 5, I give this code a rating of 5 based on the following criteria:
+
+1 The program has syntax errors and does not compile, or the project does not provide sufficient information to install necessary dependencies. 2 The program compiles successfully but generates runtime errors. or the project does not contain sufficeint instructions to run the program. 3 The program compiles and runs but does not perform correctly and does not produce correct results 4 The program compiles and produces correct output but does not follow assignment/class guidelines or is insufficiently documented 5 The program produces correct output and is well written and well documented
+
+Suggestions for improving the project:
+The code does exactly what is stated in the readme. The only thing I would suggest would be to clean up the xml a bit to make the app run more smoothly. Right now if you continue to send messages, the received messages go behind the send line. Also I would suggest to use "android:hint" so that instead of having to delete the current line it'll automatically delete if there is text in the edit text view or the cursor is active. Most of it is just the cosmetics of the actual app. If you need any help with the xml, I'd be happy to assist you. 'Otherwise the app does exactly what is supposed to be done. 
