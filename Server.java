@@ -8,9 +8,9 @@ public class Server {
         //declare server socket to listen for clients on specific port
         ServerSocket currSocket = new ServerSocket();
         try {
-   			InetAddress iAddress = InetAddress.getLocalHost();
-  			System.out.println(iAddress);
-            currSocket = new ServerSocket(4252);
+   		InetAddress iAddress = InetAddress.getLocalHost();
+  		System.out.println(iAddress);
+        	currSocket = new ServerSocket(4252);
         } catch (Exception e) {
             //
         }
