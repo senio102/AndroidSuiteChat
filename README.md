@@ -7,7 +7,7 @@ The user can then chat from the client running on the phone to another client on
 The client uses threads for the ability to send and recieve messages simultaneously.
 The server also has the ability to handle more than one client at once using multiple threads.
 
-The application has too many files to upload them all to Githib, although i have posted screenshots and the main java files i worked on.
+The application has too many files to upload them all to Github, although i have posted screenshots and the main java files i worked on.
 The APK file is also available to download and run via a desktop application such as BlueStacks or Android Studio.
 
 To run the application, open it via an emulator and run the server in a terminal window.
