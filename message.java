@@ -65,7 +65,7 @@ public class message extends AppCompatActivity {
                                 //write text from box
                                 out.writeBytes(text + '\n');
                                 //add to message listview to show full conversation
-                                listAdapter.add("Client: " + text);
+                                listAdapter.add("You: " + text);
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }

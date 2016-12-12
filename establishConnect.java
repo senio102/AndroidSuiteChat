@@ -56,7 +56,7 @@ public class establishConnect extends AppCompatActivity {
     public void startMessage() {
         Intent intent;
         //calling message class/activity
-        intent = new Intent(this, message.class);
+        intent = new Intent(this, MenuActivity.class);
         startActivity(intent);
     }
 }
