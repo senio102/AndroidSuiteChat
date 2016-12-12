@@ -9,10 +9,9 @@ import java.util.*;
 import java.net.*;
 
 
-//james senior
 public class Server
 {
-	// Maintain list of all client sockets
+	// keep list of sockets to allow alternating between the two
 	private ArrayList<Socket> socketList;
 	public Server()
 	{
@@ -21,13 +20,14 @@ public class Server
 	}
 	private void getConnection()
 	{
-		// Wait for a connection from the client
 		try
 		{
 			//print current ip for testing
 			InetAddress iAddress = InetAddress.getLocalHost();
 			System.out.println(iAddress);
+			//new server socket on port
 			ServerSocket serverSock = new ServerSocket(4252);
+			//counter to keep track of clients
 			int i=0;
 			while (true)
 			{
@@ -97,7 +97,7 @@ public class Server
 					temp = in.readLine();
 				}
 			} catch (Exception e) {
-				//e.printStackTrace();
+				//
 			}
 		}
 	}
