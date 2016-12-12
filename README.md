@@ -16,6 +16,8 @@ If doing both on the same machine, when prompted for the IP address at the appli
 
 The port is set to 4252 by deault on the server side, but it can be changed.
 
+(Notes: some occasional errors when switching between messaging and tic tac toe within the same instance of the client. also some bugs with the listview used for the messaging strings, but if you scroll slightly they appear to show up. just a bug in the xml.)
+
 Step 1: Run Server
 
 ![Alt text](/Screen%20Shot%202016-12-12%20at%201.26.56%20AM.png?raw=true "Optional Title")
